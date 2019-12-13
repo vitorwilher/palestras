@@ -1,0 +1,11 @@
+---
+title: "VI Encontro de Jovens Pesquisadores do PPGE-UFF"
+collection: talks
+type: "Seminário"
+permalink: /talks/2014-03-01-talk-3
+venue: "Departamento de Economia, UFF"
+date: 2018-11-28
+location: "Niterói, RJ"
+---
+
+Seminário com um pequeno exercício econométrico comparando modelos classificatórios tradicionais como Probit contra métodos de Machine Learning. [Material disponível aqui](https://github.com/pedrocava/apresentacao_jovens_ppge).
