@@ -1,3 +1,4 @@
+
 %tipo de arquivo gerado
 \documentclass[svgnames, 11pt]{beamer}
 \usetheme{Hannover}
@@ -55,9 +56,9 @@
 
 \titlegraphic{\includegraphics[width=3.5cm]{logo.png}}
 
-\author{V√≠tor Wilher} 
-\title{Imil na Sala de Aula - Universidade de Bras√≠lia}
-\subtitle{{\textbf{Mais Brasil, menos Bras√≠lia: um roteiro para o desenvolvimento econ√¥mico sustent√°vel}}}
+\author{VÌtor Wilher} 
+\title{Imil na Sala de Aula - Universidade de BrasÌlia}
+\subtitle{{\textbf{Mais Brasil, menos BrasÌlia: um roteiro para o desenvolvimento econÙmico sustent·vel}}}
 \institute{\href{http://www.analisemacro.com.br}{analisemacro.com.br}}
 \date{\today}
 
@@ -75,11 +76,11 @@
   \frametitle{Sobre o Autor}
 
 \begin{quote}
-\textbf{V√≠tor Wilher} √© Bacharel e Mestre em Economia, pela Universidade Federal Fluminense. Atualmente, √© S√≥cio da An√°lise Macro Treinamento e Consultoria, empresa especializada em \emph{data science}.  
+\textbf{VÌtor Wilher} È Bacharel e Mestre em Economia, pela Universidade Federal Fluminense. Atualmente, È SÛcio da An·lise Macro Treinamento e Consultoria, empresa especializada em \emph{data science}.  
 
 \bigskip
 
-Maiores informa√ß√µes, visite \href{http://www.analisemacro.com.br/}{\textbf{www.analisemacro.com.br}}
+Maiores informaÁıes, visite \href{http://www.analisemacro.com.br/}{\textbf{www.analisemacro.com.br}}
 
 \end{quote}
 \end{frame}
@@ -90,18 +91,18 @@ Maiores informa√ß√µes, visite \href{http://www.analisemacro.com.br/}{\textbf{www
   \frametitle{Sobre o Instituto Millenium}
 
 \begin{quote}
-\textbf{O Instituto Millenium (Imil) √© uma entidade sem fins lucrativos e sem vincula√ß√£o pol√≠tico-partid√°ria com sede no Rio de Janeiro. Formado por intelectuais e empres√°rios, o think tank promove valores e princ√≠pios que garantem uma sociedade livre, como liberdade individual, direito de propriedade, economia de mercado, democracia representativa, Estado de Direito e limites institucionais √† a√ß√£o do governo.}
+\textbf{O Instituto Millenium (Imil) È uma entidade sem fins lucrativos e sem vinculaÁ„o polÌtico-partid·ria com sede no Rio de Janeiro. Formado por intelectuais e empres·rios, o think tank promove valores e princÌpios que garantem uma sociedade livre, como liberdade individual, direito de propriedade, economia de mercado, democracia representativa, Estado de Direito e limites institucionais ‡ aÁ„o do governo.}
 
 
 \bigskip
 
-Maiores informa√ß√µes, visite \href{http://www.institutomillenium.org.br/}{\textbf{http://www.institutomillenium.org.br/}}
+Maiores informaÁıes, visite \href{http://www.institutomillenium.org.br/}{\textbf{http://www.institutomillenium.org.br/}}
 \end{quote}
 \end{frame}
 
-\section{Sobre o t√≠tulo}
+\section{Sobre o tÌtulo}
 
-\begin{frame}{Sobre o t√≠tulo}
+\begin{frame}{Sobre o tÌtulo}
 
 \begin{figure}[ht!]
 \centering
@@ -110,22 +111,22 @@ Maiores informa√ß√µes, visite \href{http://www.institutomillenium.org.br/}{\text
 \end{figure}
 \end{frame}
 
-\section{O que gera desenvolvimento econ√¥mico?}
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\section{O que gera desenvolvimento econÙmico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-Os economistas t√™m se perguntado sobre isso desde, ao menos, a publica√ß√£o de \textbf{A Riqueza das Na√ß√µes}, de Adam Smith, em 1776. 
+Os economistas tÍm se perguntado sobre isso desde, ao menos, a publicaÁ„o de \textbf{A Riqueza das NaÁıes}, de Adam Smith, em 1776. 
 
 \bigskip
 
-\begin{block}{Entre os n√£o economistas, as respostas favoritas:}
+\begin{block}{Entre os n„o economistas, as respostas favoritas:}
 
 \begin{itemize}
 
-  \item A posi√ß√£o geogr√°fica;
+  \item A posiÁ„o geogr·fica;
   
   \item A cultura;
   
-  \item A ignor√¢ncia. 
+  \item A ignor‚ncia. 
 
 \end{itemize}
 
@@ -133,116 +134,116 @@ Os economistas t√™m se perguntado sobre isso desde, ao menos, a publica√ß√£o de 
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-H√° um consenso na profiss√£o que essas hip√≥teses s√£o equivocadas. Desenvolvimento econ√¥mico est√° associado a \emph{aumentos persistentes de produtividade}, gerados por uma \textbf{m√£o de obra qualificada} e por \textbf{inova√ß√£o}, basicamente. 
-
-\bigskip
+H· um consenso na profiss„o que essas hipÛteses s„o equivocadas. Desenvolvimento econÙmico est· associado a \emph{aumentos persistentes de produtividade}, gerados por uma \textbf{m„o de obra qualificada} e por \textbf{inovaÁ„o}, basicamente. 
 
 \bigskip
 
-\textcolor{red}{Mas o que gera aumento de \texttt{produtividade}? Por que alguns pa√≠ses s√£o mais produtivos do que outros?} 
+\bigskip
+
+\textcolor{red}{Mas o que gera aumento de \texttt{produtividade}? Por que alguns paÌses s„o mais produtivos do que outros?} 
 
 \end{frame}
 
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-\textcolor{red}{\LARGE{Por que alguns pa√≠ses conseguem produzir \textcolor{black}{\emph{Smartphones}} e outros vivem da extra√ß√£o de recursos naturais?}}
-
-\end{frame}
-
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
-
-\LARGE{A resposta est√° nas \textcolor{red}{Institui√ß√µes} que os pa√≠ses constroem...}
+\textcolor{red}{\LARGE{Por que alguns paÌses conseguem produzir \textcolor{black}{\emph{Smartphones}} e outros vivem da extraÁ„o de recursos naturais?}}
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-\begin{block}{O que s√£o Institui√ß√µes?}
-\emph{Institui√ß√µes s√£o regras econ√¥micas e pol√≠ticas criadas e aplicadas pelo Estado e pelos cidad√£os em conjunto.}
+\LARGE{A resposta est· nas \textcolor{red}{InstituiÁıes} que os paÌses constroem...}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econÙmico?}
+
+\begin{block}{O que s„o InstituiÁıes?}
+\emph{InstituiÁıes s„o regras econÙmicas e polÌticas criadas e aplicadas pelo Estado e pelos cidad„os em conjunto.}
 \end{block}
 
 \bigskip
 
-As institui√ß√µes econ√¥micas d√£o forma aos incentivos econ√¥micos: incentivos para buscar mais educa√ß√£o, para poupar e investir, para inovar e adotar novas tecnologias, etc. 
+As instituiÁıes econÙmicas d„o forma aos incentivos econÙmicos: incentivos para buscar mais educaÁ„o, para poupar e investir, para inovar e adotar novas tecnologias, etc. 
 
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-\begin{block}{Como se constroem as Institui√ß√µes de um pa√≠s?}
-\emph{√â o processo pol√≠tico que determina a que institui√ß√µes econ√¥micas as pessoas viver√£o submetidas, e s√£o as institui√ß√µes pol√≠ticas que ditam como funciona esse processo.}
+\begin{block}{Como se constroem as InstituiÁıes de um paÌs?}
+\emph{… o processo polÌtico que determina a que instituiÁıes econÙmicas as pessoas viver„o submetidas, e s„o as instituiÁıes polÌticas que ditam como funciona esse processo.}
 \end{block}
 
 \bigskip
 
-Exemplo: s√£o as institui√ß√µes pol√≠ticas de uma na√ß√£o que estabelecem a capacidade dos cidad√£os de controlar os pol√≠ticos e influenciar seu comportamento. 
+Exemplo: s„o as instituiÁıes polÌticas de uma naÁ„o que estabelecem a capacidade dos cidad„os de controlar os polÌticos e influenciar seu comportamento. 
 
 \bigskip
 
-Isso ir√° definir se os pol√≠ticos ser√£o agentes dos cidad√£os ou se ter√£o a possibilidade de abusar do poder que lhes foi confiado. 
+Isso ir· definir se os polÌticos ser„o agentes dos cidad„os ou se ter„o a possibilidade de abusar do poder que lhes foi confiado. 
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-\large{√Ä medida que influenciam comportamentos e incentivos na vida real, as institui√ß√µes forjam o sucesso ou fracasso dos pa√≠ses.}
+\large{¿ medida que influenciam comportamentos e incentivos na vida real, as instituiÁıes forjam o sucesso ou fracasso dos paÌses.}
 
 \end{frame}
 
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-\large{Isso porque, n√£o √© necess√°rio que uma sociedade desenvolva ou adote as institui√ß√µes que s√£o melhores para o crescimento econ√¥mico ou o bem-estar de seus cidad√£os}
+\large{Isso porque, n„o È necess·rio que uma sociedade desenvolva ou adote as instituiÁıes que s„o melhores para o crescimento econÙmico ou o bem-estar de seus cidad„os}
 
 \bigskip
 
-\large{Outras institui√ß√µes podem ser ainda melhores para aqueles que det√©m o controle da pol√≠tica e das institui√ß√µes pol√≠ticas.}
+\large{Outras instituiÁıes podem ser ainda melhores para aqueles que detÈm o controle da polÌtica e das instituiÁıes polÌticas.}
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
 Para ilustrar...
 
 \bigskip
 
-Algu√©m sabe a origem da fortuna de Carlos Slim e de Bill Gates, dois dos maiores bilion√°rios do mundo?
+AlguÈm sabe a origem da fortuna de Carlos Slim e de Bill Gates, dois dos maiores bilion·rios do mundo?
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-Enquanto Bill Gates construiu sua forturna com softwares para computadores pessoais, Carlos Slim se associou ao Estado, obtendo licen√ßas para explicar mercados reservados.
+Enquanto Bill Gates construiu sua forturna com softwares para computadores pessoais, Carlos Slim se associou ao Estado, obtendo licenÁas para explicar mercados reservados.
 
 \bigskip
 
-Para Acemoglu e Robinson, isso exemplifica porque os Estados Unidos s√£o um pa√≠s desenvolvimento, enquanto o M√©xico n√£o. 
+Para Acemoglu e Robinson, isso exemplifica porque os Estados Unidos s„o um paÌs desenvolvimento, enquanto o MÈxico n„o. 
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-Em qual dos dois pa√≠ses a frase abaixo faz mais sentido?
+Em qual dos dois paÌses a frase abaixo faz mais sentido?
 
 \bigskip
 
 \begin{quote}
-\textbf{\textcolor{Navy}{Ter uma ideia, abrir uma empresa e obter um empr√©stimo}}
+\textbf{\textcolor{Navy}{Ter uma ideia, abrir uma empresa e obter um emprÈstimo}}
 \end{quote}
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-As institui√ß√µes de um pa√≠s podem gerar incentivos para que um garoto na casa dos vinte poucos anos tenha uma ideia, consiga apresentar essa ideia para investidores dispostos a correr riscos, abra uma empresa e vire multimilion√°rio...
+As instituiÁıes de um paÌs podem gerar incentivos para que um garoto na casa dos vinte poucos anos tenha uma ideia, consiga apresentar essa ideia para investidores dispostos a correr riscos, abra uma empresa e vire multimilion·rio...
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
 \begin{figure}[ht!]
 \centering
@@ -251,40 +252,40 @@ As institui√ß√µes de um pa√≠s podem gerar incentivos para que um garoto na casa 
 \end{figure}
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-As institui√ß√µes de um pa√≠s podem ser:
+As instituiÁıes de um paÌs podem ser:
 
 \begin{itemize}
 
-  \item \textbf{Inclusivas:} gerando incentivos para que trabalhadores se dirigiam para as atividades mais produtividades, para que as empresas menos eficientes sejam substitu√≠das por outras de maior efic√°cia;
+  \item \textbf{Inclusivas:} gerando incentivos para que trabalhadores se dirigiam para as atividades mais produtividades, para que as empresas menos eficientes sejam substituÌdas por outras de maior efic·cia;
   
-  \item \textbf{Extrativistas:} tendo como finalidade a extra√ß√£o de renda e da riqueza de um segmento da sociedade para benef√≠cio de outro.
+  \item \textbf{Extrativistas:} tendo como finalidade a extraÁ„o de renda e da riqueza de um segmento da sociedade para benefÌcio de outro.
 
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-As institui√ß√µes econ√¥micas inclusivas preparam o terreno para os dois principais motores do aumento da produtividade: a tecnologia e a educa√ß√£o. 
+As instituiÁıes econÙmicas inclusivas preparam o terreno para os dois principais motores do aumento da produtividade: a tecnologia e a educaÁ„o. 
 
 \bigskip
 
-Afinal, o crescimento econ√¥mico sustentado √© sempre acompanhado de melhorias tecnol√≥gicas que permitem √†s pessoas, √† terra e ao capital serem mais produtivos. 
+Afinal, o crescimento econÙmico sustentado È sempre acompanhado de melhorias tecnolÛgicas que permitem ‡s pessoas, ‡ terra e ao capital serem mais produtivos. 
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
-A capacidade das institui√ß√µes econ√¥micas de explorar o potencial dos mercados inclusivos, estimular a inova√ß√£o tecnol√≥gica, investir em pessoas e mobilizar os talentos e compet√™ncias de grande n√∫mero de ind√≠viduos √© fundamental para o crescimento econ√¥mico.
+A capacidade das instituiÁıes econÙmicas de explorar o potencial dos mercados inclusivos, estimular a inovaÁ„o tecnolÛgica, investir em pessoas e mobilizar os talentos e competÍncias de grande n˙mero de indÌviduos È fundamental para o crescimento econÙmico.
 
 \end{frame}
 
-\begin{frame}{O que gera desenvolvimento econ√¥mico?}
+\begin{frame}{O que gera desenvolvimento econÙmico?}
 
 
-A pol√≠tica √© o processo pelo qual uma sociedade escolhe as regras que v√£o govern√°-la. A pol√≠tica permeia as institui√ß√µes pelo simples motivo de que, por melhores que as institui√ß√µes inclusivas sejam para a prosperidade econ√¥mica de cada pa√≠s, para certas pessoas ou grupos ser√° muito mais vantajoso estabelecer institui√ß√µes extrativistas. Sempre que houver conflito em torno das institui√ß√µes, o que acontecer√° vai depender das pessoas ou grupos que vencerem o jogo pol√≠tico. 
+A polÌtica È o processo pelo qual uma sociedade escolhe as regras que v„o govern·-la. A polÌtica permeia as instituiÁıes pelo simples motivo de que, por melhores que as instituiÁıes inclusivas sejam para a prosperidade econÙmica de cada paÌs, para certas pessoas ou grupos ser· muito mais vantajoso estabelecer instituiÁıes extrativistas. Sempre que houver conflito em torno das instituiÁıes, o que acontecer· vai depender das pessoas ou grupos que vencerem o jogo polÌtico. 
 
 \end{frame}
 
@@ -298,13 +299,13 @@ A pol√≠tica √© o processo pelo qual uma sociedade escolhe as regras que v√£o gov
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-Momento pol√≠tico vivido pelo Brasil n√£o poderia ser mais prop√≠cio para resgatar os ensinamentos de Acemoglu e Robinson...
+Momento polÌtico vivido pelo Brasil n„o poderia ser mais propÌcio para resgatar os ensinamentos de Acemoglu e Robinson...
 
 \end{frame}
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-O desenvolvimento econ√¥mico brasileiro, desde sua funda√ß√£o, est√° associado justamente a atividades de \textbf{rent-seeking}. 
+O desenvolvimento econÙmico brasileiro, desde sua fundaÁ„o, est· associado justamente a atividades de \textbf{rent-seeking}. 
 
 \end{frame}
 
@@ -316,17 +317,17 @@ Alguns desses mecanismos de \textbf{rent-seeking} incluem:
 
 \begin{itemize}
 
-  \item Cr√©dito subsidiado para empres√°rios amigos;
+  \item CrÈdito subsidiado para empres·rios amigos;
   
-  \item Benef√≠cios e aposentadorias genenerosas para pol√≠ticos e servidores p√∫blicos;
+  \item BenefÌcios e aposentadorias genenerosas para polÌticos e servidores p˙blicos;
   
   \item Universidade gratuita para os mais ricos;
   
   \item Foro Privilegiado;
   
-  \item Fundo Partid√°rio;
+  \item Fundo Partid·rio;
   
-  \item Cart√≥rios;
+  \item CartÛrios;
   
   \item etc, etc...
 
@@ -338,7 +339,7 @@ Alguns desses mecanismos de \textbf{rent-seeking} incluem:
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=100mm]{creditodirecionado.png}
-\caption{Cr√©dito subsidiado para os amigos. \label{figura01}}
+\caption{CrÈdito subsidiado para os amigos. \label{figura01}}
 \end{figure}
 \end{frame}
 
@@ -347,7 +348,7 @@ Alguns desses mecanismos de \textbf{rent-seeking} incluem:
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=100mm]{previdencia.png}
-\caption{Previd√™ncia generosa para pol√≠ticos e servidores p√∫blicos. \label{figura01}}
+\caption{PrevidÍncia generosa para polÌticos e servidores p˙blicos. \label{figura01}}
 \end{figure}
 \end{frame}
 
@@ -365,24 +366,24 @@ Alguns desses mecanismos de \textbf{rent-seeking} incluem:
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=100mm]{db.png}
-\caption{Ambiente de neg√≥cios in√≥spito. \label{figura01}}
+\caption{Ambiente de negÛcios inÛspito. \label{figura01}}
 \end{figure}
 \end{frame}
 
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-O ambiente de neg√≥cios brasileiro incentiva a abertura de escrit√≥rios em Bras√≠lia, em detrimento da busca por melhores produtos e servi√ßos. 
+O ambiente de negÛcios brasileiro incentiva a abertura de escritÛrios em BrasÌlia, em detrimento da busca por melhores produtos e serviÁos. 
 
 \bigskip
 
-Mas vale comprar um deputado do que investir em processos inovadores de produ√ß√£o...
+Mas vale comprar um deputado do que investir em processos inovadores de produÁ„o...
 
 \end{frame}
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-O menino na casa dos vinte e poucos anos √© incentivado a fazer concurso p√∫blico, ao inv√©s de criar o Facebook...
+O menino na casa dos vinte e poucos anos È incentivado a fazer concurso p˙blico, ao invÈs de criar o Facebook...
 
 \end{frame}
 
@@ -394,13 +395,13 @@ Mudar essa realidade vai exigir da nossa sociedade uma longa travessia, onde sej
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-Vai ser necess√°rio mexer com os privil√©gios da classe pol√≠tica e de algumas classes de servidores p√∫blicos...
+Vai ser necess·rio mexer com os privilÈgios da classe polÌtica e de algumas classes de servidores p˙blicos...
 
 \end{frame}
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-A agenda de Reformas Estruturais, por exemplo, caminha nessa dire√ß√£o:
+A agenda de Reformas Estruturais, por exemplo, caminha nessa direÁ„o:
 
 \bigskip
 
@@ -408,9 +409,9 @@ A agenda de Reformas Estruturais, por exemplo, caminha nessa dire√ß√£o:
 
   \item Tornar todos iguais;
   
-  \item Garantir a solv√™ncia do Estado;
+  \item Garantir a solvÍncia do Estado;
   
-  \item Melhorar o ambiente de neg√≥cios. 
+  \item Melhorar o ambiente de negÛcios. 
 
 \end{itemize}
 \end{frame}
@@ -425,7 +426,7 @@ A agenda de Reformas Estruturais, por exemplo, caminha nessa dire√ß√£o:
 
 \begin{frame}{E o Brasil nisso tudo?}
 
-Pensem a√≠...
+Pensem aÌ...
 
 \bigskip
 
