@@ -1,0 +1,455 @@
+%tipo de arquivo gerado
+\documentclass[svgnames, 11pt]{beamer}
+\usetheme{Hannover}
+%\usetheme{CambridgeUS}
+\usetheme{Boadilla}
+
+
+%Pacotes a serem usados
+%\usepackage{beamerthemesplit}
+% \usepackage[utf8]{inputenc}  Briga com T1 fontenc
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage[round]{natbib}
+\bibliographystyle{kbib}
+\newtheorem{mydef}{Definition}
+
+
+%title page
+\makeatletter
+\setbeamertemplate{title page}
+{
+  \vbox{}
+  \vfill
+  \begin{centering}
+  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+    \bigskip
+    \begin{beamercolorbox}[sep=8pt,center]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \vskip0.25em%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}\vskip0.5em
+  \end{centering}
+  \vfill
+}
+\makeatother
+
+\titlegraphic{\includegraphics[width=3.5cm]{logo.png}}
+
+\author{Vítor Wilher} 
+\title{Imil na Sala de Aula - Universidade de Brasília}
+\subtitle{{\textbf{Mais Brasil, menos Brasília: um roteiro para o desenvolvimento econômico sustentável}}}
+\institute{\href{http://www.analisemacro.com.br}{analisemacro.com.br}}
+\date{\today}
+
+
+
+\begin{document}
+
+\frame{\titlepage} 
+
+\frame{\frametitle{O plano de voo para hoje}\tableofcontents} 
+
+\section{Sobre o Autor}
+
+\begin{frame}
+  \frametitle{Sobre o Autor}
+
+\begin{quote}
+\textbf{Vítor Wilher} é Bacharel e Mestre em Economia, pela Universidade Federal Fluminense. Atualmente, é Sócio da Análise Macro Treinamento e Consultoria, empresa especializada em \emph{data science}.  
+
+\bigskip
+
+Maiores informações, visite \href{http://www.analisemacro.com.br/}{\textbf{www.analisemacro.com.br}}
+
+\end{quote}
+\end{frame}
+
+\section{Sobre o Instituto Millenium}
+
+\begin{frame}
+  \frametitle{Sobre o Instituto Millenium}
+
+\begin{quote}
+\textbf{O Instituto Millenium (Imil) é uma entidade sem fins lucrativos e sem vinculação político-partidária com sede no Rio de Janeiro. Formado por intelectuais e empresários, o think tank promove valores e princípios que garantem uma sociedade livre, como liberdade individual, direito de propriedade, economia de mercado, democracia representativa, Estado de Direito e limites institucionais à ação do governo.}
+
+
+\bigskip
+
+Maiores informações, visite \href{http://www.institutomillenium.org.br/}{\textbf{http://www.institutomillenium.org.br/}}
+\end{quote}
+\end{frame}
+
+\section{Sobre o título}
+
+\begin{frame}{Sobre o título}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=40mm]{acemoglu.jpg}
+\caption{Palestra baseada no livro do Acemoglu e Robinson. \label{figura01}}
+\end{figure}
+\end{frame}
+
+\section{O que gera desenvolvimento econômico?}
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+Os economistas têm se perguntado sobre isso desde, ao menos, a publicação de \textbf{A Riqueza das Nações}, de Adam Smith, em 1776. 
+
+\bigskip
+
+\begin{block}{Entre os não economistas, as respostas favoritas:}
+
+\begin{itemize}
+
+  \item A posição geográfica;
+  
+  \item A cultura;
+  
+  \item A ignorância. 
+
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+Há um consenso na profissão que essas hipóteses são equivocadas. Desenvolvimento econômico está associado a \emph{aumentos persistentes de produtividade}, gerados por uma \textbf{mão de obra qualificada} e por \textbf{inovação}, basicamente. 
+
+\bigskip
+
+\bigskip
+
+\textcolor{red}{Mas o que gera aumento de \texttt{produtividade}? Por que alguns países são mais produtivos do que outros?} 
+
+\end{frame}
+
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\textcolor{red}{\LARGE{Por que alguns países conseguem produzir \textcolor{black}{\emph{Smartphones}} e outros vivem da extração de recursos naturais?}}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\LARGE{A resposta está nas \textcolor{red}{Instituições} que os países constroem...}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\begin{block}{O que são Instituições?}
+\emph{Instituições são regras econômicas e políticas criadas e aplicadas pelo Estado e pelos cidadãos em conjunto.}
+\end{block}
+
+\bigskip
+
+As instituições econômicas dão forma aos incentivos econômicos: incentivos para buscar mais educação, para poupar e investir, para inovar e adotar novas tecnologias, etc. 
+
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\begin{block}{Como se constroem as Instituições de um país?}
+\emph{É o processo político que determina a que instituições econômicas as pessoas viverão submetidas, e são as instituições políticas que ditam como funciona esse processo.}
+\end{block}
+
+\bigskip
+
+Exemplo: são as instituições políticas de uma nação que estabelecem a capacidade dos cidadãos de controlar os políticos e influenciar seu comportamento. 
+
+\bigskip
+
+Isso irá definir se os políticos serão agentes dos cidadãos ou se terão a possibilidade de abusar do poder que lhes foi confiado. 
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\large{À medida que influenciam comportamentos e incentivos na vida real, as instituições forjam o sucesso ou fracasso dos países.}
+
+\end{frame}
+
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\large{Isso porque, não é necessário que uma sociedade desenvolva ou adote as instituições que são melhores para o crescimento econômico ou o bem-estar de seus cidadãos}
+
+\bigskip
+
+\large{Outras instituições podem ser ainda melhores para aqueles que detém o controle da política e das instituições políticas.}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+Para ilustrar...
+
+\bigskip
+
+Alguém sabe a origem da fortuna de Carlos Slim e de Bill Gates, dois dos maiores bilionários do mundo?
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+Enquanto Bill Gates construiu sua forturna com softwares para computadores pessoais, Carlos Slim se associou ao Estado, obtendo licenças para explicar mercados reservados.
+
+\bigskip
+
+Para Acemoglu e Robinson, isso exemplifica porque os Estados Unidos são um país desenvolvimento, enquanto o México não. 
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+Em qual dos dois países a frase abaixo faz mais sentido?
+
+\bigskip
+
+\begin{quote}
+\textbf{\textcolor{Navy}{Ter uma ideia, abrir uma empresa e obter um empréstimo}}
+\end{quote}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+As instituições de um país podem gerar incentivos para que um garoto na casa dos vinte poucos anos tenha uma ideia, consiga apresentar essa ideia para investidores dispostos a correr riscos, abra uma empresa e vire multimilionário...
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=80mm]{facebook.png}
+\caption{Aconteceu com Mark Zuckerberg. \label{figura02}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+As instituições de um país podem ser:
+
+\begin{itemize}
+
+  \item \textbf{Inclusivas:} gerando incentivos para que trabalhadores se dirigiam para as atividades mais produtividades, para que as empresas menos eficientes sejam substituídas por outras de maior eficácia;
+  
+  \item \textbf{Extrativistas:} tendo como finalidade a extração de renda e da riqueza de um segmento da sociedade para benefício de outro.
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+As instituições econômicas inclusivas preparam o terreno para os dois principais motores do aumento da produtividade: a tecnologia e a educação. 
+
+\bigskip
+
+Afinal, o crescimento econômico sustentado é sempre acompanhado de melhorias tecnológicas que permitem às pessoas, à terra e ao capital serem mais produtivos. 
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+A capacidade das instituições econômicas de explorar o potencial dos mercados inclusivos, estimular a inovação tecnológica, investir em pessoas e mobilizar os talentos e competências de grande número de indíviduos é fundamental para o crescimento econômico.
+
+\end{frame}
+
+\begin{frame}{O que gera desenvolvimento econômico?}
+
+
+A política é o processo pelo qual uma sociedade escolhe as regras que vão governá-la. A política permeia as instituições pelo simples motivo de que, por melhores que as instituições inclusivas sejam para a prosperidade econômica de cada país, para certas pessoas ou grupos será muito mais vantajoso estabelecer instituições extrativistas. Sempre que houver conflito em torno das instituições, o que acontecerá vai depender das pessoas ou grupos que vencerem o jogo político. 
+
+\end{frame}
+
+\section{E o Brasil?}
+
+\begin{frame}{}
+\begin{center}
+\LARGE{\textcolor{Navy}{E o Brasil nisso tudo?}}
+\end{center}
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+Momento político vivido pelo Brasil não poderia ser mais propício para resgatar os ensinamentos de Acemoglu e Robinson...
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+O desenvolvimento econômico brasileiro, desde sua fundação, está associado justamente a atividades de \textbf{rent-seeking}. 
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+Alguns desses mecanismos de \textbf{rent-seeking} incluem:
+
+\bigskip
+
+\begin{itemize}
+
+  \item Crédito subsidiado para empresários amigos;
+  
+  \item Benefícios e aposentadorias genenerosas para políticos e servidores públicos;
+  
+  \item Universidade gratuita para os mais ricos;
+  
+  \item Foro Privilegiado;
+  
+  \item Fundo Partidário;
+  
+  \item Cartórios;
+  
+  \item etc, etc...
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{creditodirecionado.png}
+\caption{Crédito subsidiado para os amigos. \label{figura01}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{previdencia.png}
+\caption{Previdência generosa para políticos e servidores públicos. \label{figura01}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{ocde.png}
+\caption{Prioridades invertidas. \label{figura01}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{db.png}
+\caption{Ambiente de negócios inóspito. \label{figura01}}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+O ambiente de negócios brasileiro incentiva a abertura de escritórios em Brasília, em detrimento da busca por melhores produtos e serviços. 
+
+\bigskip
+
+Mas vale comprar um deputado do que investir em processos inovadores de produção...
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+O menino na casa dos vinte e poucos anos é incentivado a fazer concurso público, ao invés de criar o Facebook...
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+Mudar essa realidade vai exigir da nossa sociedade uma longa travessia, onde sejam garantidos o Estado de Direito, a Economia de Mercado e todas as liberdades...
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+Vai ser necessário mexer com os privilégios da classe política e de algumas classes de servidores públicos...
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+A agenda de Reformas Estruturais, por exemplo, caminha nessa direção:
+
+\bigskip
+
+\begin{itemize}
+
+  \item Tornar todos iguais;
+  
+  \item Garantir a solvência do Estado;
+  
+  \item Melhorar o ambiente de negócios. 
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+\centering
+\LARGE{Muito otimismo?}
+
+\end{frame}
+
+\begin{frame}{E o Brasil nisso tudo?}
+
+Pensem aí...
+
+\bigskip
+
+\bigskip
+
+\centering
+\LARGE{Obrigado!}
+
+\bigskip
+
+\begin{block}{Contato:}
+\begin{center}
+\href{http://www.analisemacro.com.br}
+{\underline{www.analisemacro.com.br}}
+vitorwilher@analisemacro.com.br
+\end{center}
+\end{block}
+
+\bigskip
+
+\begin{center}
+ \includegraphics[width=3.5cm]{logo.png}
+\end{center}
+
+\end{frame}
+
+\end{document}
