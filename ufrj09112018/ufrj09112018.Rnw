@@ -1,0 +1,425 @@
+%tipo de arquivo gerado
+\documentclass[svgnames, 11pt]{beamer}
+\usetheme{Hannover}
+%\usetheme{CambridgeUS}
+\usetheme{Boadilla}
+
+
+%Pacotes a serem usados
+%\usepackage{beamerthemesplit}
+% \usepackage[utf8]{inputenc}  Briga com T1 fontenc
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage[round]{natbib}
+\bibliographystyle{kbib}
+\newtheorem{mydef}{Definition}
+
+
+%title page
+\makeatletter
+\setbeamertemplate{title page}
+{
+  \vbox{}
+  \vfill
+  \begin{centering}
+  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+    \bigskip
+    \begin{beamercolorbox}[sep=8pt,center]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \vskip0.25em%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}\vskip0.5em
+  \end{centering}
+  \vfill
+}
+\makeatother
+
+\titlegraphic{\includegraphics[width=7cm]{imil.png}}
+
+
+\author{Vítor Wilher} 
+\title{R e \emph{Data Science}: como entender o que dizem os dados com o \(\mathbf{R}\)?}
+\subtitle{\textbf{IMIL na Sala de Aula - IE/UFRJ}}
+\institute{\href{http://www.analisemacro.com.br}{analisemacro.com.br}}
+\date{\today}
+
+
+
+\begin{document}
+
+\frame{\titlepage} 
+
+\frame{\frametitle{O plano de voo para hoje}\tableofcontents} 
+
+\section{Sobre o Autor}
+
+\begin{frame}
+  \frametitle{Sobre o Autor}
+
+\begin{quote}
+\textbf{Vítor Wilher} é Bacharel e Mestre em Economia, pela Universidade Federal Fluminense, com especialização em \emph{Data Science} pela Johns Hopkins University. Sócio-Fundador da \href{http://analisemacro.com.br}{Análise Macro}, empresa especializada em treinamento e consultoria em \emph{data science}. É também Conselheiro do \href{https://www.institutomillenium.org.br/}{Instituto Millenium}. 
+
+\bigskip
+
+Maiores informações, visite \href{http://www.analisemacro.com.br/}{www.analisemacro.com.br}
+
+\end{quote}
+\end{frame}
+
+\section{O mundo dos dados}
+
+\begin{frame}{O mundo dos dados}
+
+
+O avanço da informática e das telecomunicações possibilitou o armazenamento e a distribuição de conjuntos de dados cada vez mais complexos. Lidar com essas bases de dados exigiu a sistematização de diversas técnicas de coleta, tratamento, análise e apresentação de dados. 
+
+\end{frame}
+
+\begin{frame}{O mundo dos dados}
+
+Essa sistematização de técnicas deu origem ao que hoje chamamos de \textbf{data science}, cujo objetivo principal é extrair informações úteis de conjuntos de dados aparentemente confusos. 
+
+\bigskip
+
+\begin{block}{Aplicações interessantes:}
+
+\begin{itemize}
+
+  \item Identificar mensagens indesejáveis em um e-mail (spam);
+  
+  \item Segmentação do comportamento de consumidores para propagandas direcionadas;
+  
+  \item Redução de fraudes em transações de cartão de crédito;
+  
+  \item Predição de eleições;
+  
+  \item Otimização do uso de energia em casas ou prédios;
+  
+  \item etc, etc, etc...
+
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{O mundo dos dados}
+
+De modo a responder esse tipo de pergunta, é necessário cumprir aquelas quatro etapas da ciência de dados. 
+
+\bigskip
+
+\begin{block}{As quatro operações:}
+
+\begin{itemize}
+
+  \item É preciso \textbf{coletar} os dados;
+  
+  \item Dados brutos precisam ser \textbf{tratados};
+  
+  \item Uma vez disponíveis, os dados precisam ser \textbf{analisados} de forma a extrair informações relevantes e/ou responder determinados questionamentos;
+  
+  \item Com as respostas em mãos, é preciso \textbf{apresentar} os resultados. 
+
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{O mundo dos dados}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{uff01.png}
+\caption{Fonte: \href{http://r4ds.had.co.nz/}{R for Data Science.} \label{figura01}}
+\end{figure}
+
+\bigskip
+
+Cada uma dessas etapas exige conhecimentos específicos, de modo a lidar com diferentes formatos de dados, bem como responder questões distintas. 
+
+\end{frame}
+
+\subsection{Getting and Cleaning data}
+
+\begin{frame}{Getting and Cleaning data}
+
+Dados podem estar dispostos em diferentes formatos:
+
+\bigskip
+
+\begin{itemize}
+
+  \item Excel;
+  
+  \item XML;
+  
+  \item JSON;
+  
+  \item txt;
+  
+  \item HTML;
+  
+  \item MySQL;
+  
+  \item Formatos proprietários (Weka, Stata, Minitab, Octave, SPSS, SAS, etc).
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Getting and Cleaning data}
+
+Dados precisam ser tratados:
+
+\bigskip
+
+\begin{itemize}
+
+  \item Limpeza de dados;
+  
+  \item Tratamento de \emph{missing values};
+  
+  \item Construção de números índices;
+  
+  \item Deflacionar valores correntes;
+  
+  \item Obtenção de taxas de crescimento, a partir de comparações mensais, interanuais, acumuladas em 12 meses, etc;
+  
+  \item Tratando tendências;
+  
+  \item Dessazonalização;
+  
+  \item Obtendo subconjuntos (\emph{subsetting}) relevantes;
+  
+  \item Classificando dados de acordo com algum critério;
+  
+  \item Transformando dados de acordo com alguma operação.
+  
+\end{itemize}
+
+\end{frame}
+
+\subsection{Exploratory Data Analysis}
+
+\begin{frame}{Exploratory Data Analysis}
+
+Dados precisam ser visualizados:
+
+\bigskip
+
+\begin{itemize}
+
+  \item Gráficos simples;
+  
+  \item Gráficos de correlação;
+  
+  \item Clustering;
+  
+\end{itemize}
+
+\end{frame}
+
+\subsection{Modeling}
+
+\begin{frame}{Modeling}
+
+Dados podem ser relacionados uns aos outros.
+
+\bigskip
+
+\begin{itemize}
+
+  \item Modelos ARIMA;
+  
+  \item Regressão linear;
+  
+  \item Árvores de regressão;
+  
+  \item Neural Network;
+  
+  \item Support Vector Machine;
+  
+  \item Naive Bayes;
+  
+  \item etc, etc, etc.
+
+\end{itemize}
+
+\end{frame}
+
+\subsection{Communication}
+
+\begin{frame}{Communication}
+
+Os resultados precisam ser comunicados através de \emph{documentos reprodutíveis}, que unam \textbf{código} e \textbf{texto}. 
+
+\end{frame}
+
+
+\section{O mundo do R}
+
+\begin{frame}{O mundo do R}
+
+Era necessário construir uma plataforma que unisse todas essas etapas. O \(\mathbf{R}\) é uma das melhores soluções atualmente disponíveis, dados os seguintes motivos:
+
+\begin{itemize}
+
+  \item A existência de uma comunidade grande e bastante entusiasmada, que compartilha conhecimento todo o tempo;
+  
+  \item o \(\mathbf{R}\) é gratuito, \emph{open source}, de modo que você não precisa comprar licenças de software para instalá-lo;
+  
+  \item Tem inúmeras bibliotecas (pacotes) em estatística, \emph{machine learning}, visualização, importação e tratamento de dados;
+  
+  \item Possui uma linguagem estabelecida para \emph{data analysis};
+  
+  \item Ferramentas poderosas para comunicação dos resultados da sua pesquisa, seja em forma de um website ou em pdf.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{O mundo do R}
+
+Ao aprender \(\mathbf{R}\), você conseguirá integrar as etapas de coleta, tratamento, análise e apresentação de dados em um único ambiente. Você vai esquecer ter de abrir o excel, algum pacote estatístico, depois o power point ou o word, depois um compilador de pdf para gerar seu relatório. Todas essas etapas serão feitas em um único ambiente. E essa talvez seja a grande motivação para você entrar de cabeça nesse mundo. 
+
+\end{frame}
+
+\begin{frame}{O mundo do R}
+
+\begin{enumerate}
+
+  \item Baixe o \(\mathbf{R}\) em \href{http://cran-r.c3sl.ufpr.br/}{http://cran-r.c3sl.ufpr.br/};
+  \item Baixe o \(\mathbf{RStudio}\) em \href{https://www.rstudio.com/products/rstudio/download/}{https://www.rstudio.com/products/rstudio/download/};
+  \item Baixe o \(\mathbf{MikTex}\)  \emph{se você for usuário de Windows} em \href{http://miktex.org/download}{http://miktex.org/download};
+  \item Baixe o \(\mathbf{MacTex}\) \emph{se você for usuário de Mac} em \href{http://www.tug.org/mactex/}{http://www.tug.org/mactex/}.
+
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{O mundo do R}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{rstudio.png}
+\caption{Ambiente do RStudio. \label{figura01}}
+\end{figure}
+\end{frame}
+
+
+\section{Alguns problemas práticos}
+
+\begin{frame}{Alguns problemas práticos}
+
+\begin{enumerate}
+
+  \item Existe relação entre desemprego e procura pela Uber?
+  
+  \item Os desembolsos do BNDES fizeram aumentar a taxa de investimento da economia brasileira?
+  
+  \item Como podemos explicar a inflação de alimentos?
+  
+  \item O Banco Central brasileiro reage a choques cambiais?
+  
+  \item Qual o efeito do aumento de volatilidade no mercado sobre a taxa de câmbio?
+
+\end{enumerate}
+
+
+\end{frame}
+
+\begin{frame}{Alguns problemas práticos}
+
+De modo a analisar essas questões, alguns problemas imediatos surgem:
+
+\bigskip
+
+\begin{enumerate}
+
+  \item Onde estão os dados?
+  
+  \item Qual proxy utilizar para representar, por exemplo, o \emph{interesse pela Uber}?
+  
+  \item Como tratar os dados brutos obtidos das fontes primárias?
+  
+  \item Qual a estrutura dos dados?
+  
+  \item Uma vez que as questões anteriores estejam resolvidas, qual o melhor modelo para analisar a relação entre as variáveis? 
+
+\end{enumerate}
+  
+\end{frame}
+
+\section{Data Science e os Economistas}
+
+\begin{frame}{Data Science e os Economistas}
+
+Os economistas estão acostumados com \textbf{modelagem} de variáveis econômicas, de modo que podem e devem se beneficiar das técnicas de \emph{data science}, que envolvem coleta, tratamento, análise e apresentação de dados.
+
+\bigskip
+
+Em um mundo onde se discute a perda de empregos para robôs, os economistas devem se preparar para temas como \emph{Big Data}, \emph{Machine Learning}, \emph{Statistical Learning}, \emph{Predictive Modeling}, etc...
+
+\end{frame}
+
+\begin{frame}{Data Science e os Economistas}
+
+Para terminar, uma provocação. Enquanto vocês são obrigados a ler Marx, no MIT...
+
+\bigskip
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=60mm]{mit.png}
+\caption{Uma nova graduação no MIT. \label{figura01}}
+\end{figure}
+
+\end{frame}
+
+
+\section{Contato}
+
+\begin{frame}{}
+
+\bigskip
+
+\bigskip
+
+\centering
+\large{Slides estão disponíveis no repositório da Análise Macro no Github: \href{https://github.com/analisemacro/degustacao}{https://github.com/analisemacro/degustacao}.}
+
+\bigskip
+
+\begin{block}{Visite:}
+\begin{center}
+\href{http://www.analisemacro.com.br}
+{\underline{www.analisemacro.com.br}}
+\end{center}
+\end{block}
+
+\bigskip
+
+\begin{center}
+ \includegraphics[width=3.5cm]{logo.png}
+\end{center}
+
+\end{frame}
+
+\end{document}
+
